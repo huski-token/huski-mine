@@ -1,0 +1,11 @@
+[package]
+name = "game"
+# version = "0.0.1"
+edition = "2024.beta"
+# published-at = "0x584b0c380e725b1ff926f5dcbedced5bdee5f65fe3a084dbb1a075c7707d726e"
+
+[dependencies]
+Sui = { local = "F:/sui-testnet-v1.31.1/crates/sui-framework/packages/sui-framework" }
+
+[addresses]
+game = "0x0"
